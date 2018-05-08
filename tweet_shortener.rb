@@ -21,5 +21,7 @@ def tweet_shortener(tweet)
   
   tweet.split(" "). each do |word|
     if replaced_words[word.downcase]
-      output.push()
+      output.push(replaced_words[word.downcase])
+    else
+      output.push(word)
 end
