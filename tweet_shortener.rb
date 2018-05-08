@@ -16,5 +16,5 @@ end
 
 def tweet_shortener(tweet)
   tweet.split(" ").collect do |word|
-    if word.include?()
+    if .include?()
 end
