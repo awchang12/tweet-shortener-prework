@@ -15,7 +15,7 @@ def dictionary
   }
 end
 
-def tweet_shortener(tweet)
+def word_substituter(tweet)
   dictionary
   output = []
   
