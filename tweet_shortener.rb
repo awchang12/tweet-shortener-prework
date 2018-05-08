@@ -20,4 +20,6 @@ def tweet_shortener(tweet)
       word = dictionary[word.downcase]
     else
       word = word
+    end
+    
 end
