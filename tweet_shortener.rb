@@ -19,5 +19,5 @@ def tweet_shortener(tweet)
   replaced_words = dictionary
   output = []
   
-  
+  tweet.split(" ")
 end
