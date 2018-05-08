@@ -26,4 +26,5 @@ def tweet_shortener(tweet)
       output.push(word)
     end
   end
+  output.join(" ")
 end
