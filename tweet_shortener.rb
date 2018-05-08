@@ -24,4 +24,6 @@ def tweet_shortener(tweet)
       output.push(replaced_words[word.downcase])
     else
       output.push(word)
+    end
+  end
 end
