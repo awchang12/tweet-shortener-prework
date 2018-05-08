@@ -14,3 +14,6 @@ def dictionary
   }
 end
 
+def tweet_shortener(tweet)
+  
+end
