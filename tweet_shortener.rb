@@ -16,12 +16,8 @@ def dictionary
 end
 
 def tweet_shortener(tweet)
-  tweet.split(" ").collect do |word|
-    if dictionary.keys.include?(word.downcase)
-      word = dictionary[word.downcase]
-    else
-      word = word
-    end
-    tweet.join(" ")
-  end
+  replaced_words = dictionary
+  output = []
+  
+  
 end
