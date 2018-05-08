@@ -17,5 +17,5 @@ end
 def tweet_shortener(tweet)
   tweet.split(" ").collect do |word|
     if dictionary.keys.include?(word.downcase)
-      word = 
+      word = dictionary[word.downcase]
 end
