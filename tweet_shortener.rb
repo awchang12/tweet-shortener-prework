@@ -26,5 +26,5 @@ def word_substituter(tweet)
       output.push(word)
     end
   end
-  output.join(" ")
+  print output.join(" ")
 end
